@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 selenium = "*"
 chromedriver-binary-auto = "*"
+requests = "*"
+beautifulsoup4 = "*"
+lxml = "*"
 
 [dev-packages]
 

@@ -1,3 +1,5 @@
+import time
+
 # noinspection PyUnresolvedReferences
 import chromedriver_binary
 from selenium import webdriver
@@ -57,4 +59,6 @@ def main():
 
 
 if __name__ == '__main__':
+    start = time.time()  # 開始の時間
     main()
+    print(time.time() - start)  # 終了の時間 - 開始の時間
